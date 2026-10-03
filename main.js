@@ -27,17 +27,15 @@ function convertValues() {
             style: "currency",
             currency: "EUR"
         }).format(inputCurrencyValue / euroToday)
+
+        currencyValueToConvert.innerHTML = new Intl.NumberFormat('pt-BR', {
+            style: "currency",
+            currency: "BRL"
+        }).format(currencyValueToConvert)
     }
-
-    // Formatando valor de Real, Colocando pontuação e os cifrão
-    currencyValueToConvert.innerHTML = new Intl.NumberFormat('pt-BR', {
-        style: "currency",
-        currency: "BRL"
-
-    }).format(inputCurrencyValue)
-
-    console.log(convertedValue)
 }
+
+
 
 function changeCurrency() {
     const currencyName = document.getElementById('currency-name')
