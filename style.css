@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    font-family: robotto;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: Montserrat;
+}
+
+body {
+    background-color: #a268f8;
+
+}
+
+main {
+    width: 480px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 54px 32px 39px;
+}
+
+#coin_flip {
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.flag {
+    height: 55px;
+}
+
+.top_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+select {
+    width: 327px;
+    height: 48px;
+    align-items: center;
+}
+
+label {
+    font-size: 24px;
+    font-weight: 400;
+    height: 48px;
+    margin-bottom: 18px;
+
+}
+
+b {
+    margin-left: 8px;
+}
+
+select, input {
+    background: white;
+    border: 1px solid #BBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #555;
+    cursor: pointer;
+}
+
+button {
+    background: #772FD3;
+    width: 100%;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    padding: 32px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow {
+    height: 32px;
+    margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.currency-value, .currency-value-to-convert {
+    font-size: 24px;
+    font-weight: 700;
+    color: #555;
+}
+
